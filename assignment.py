@@ -47,10 +47,10 @@ print(list1)
 numbers =[10, 20, 30, 40, 50]
 print(numbers)
 
-numbers.append([60])
+numbers.Append([60])
 print(numbers)
 
-numbers.insert(0, 5)
+numbers.insert[0, (5)]
 print(numbers)
 
 numbers.remove(30)
@@ -63,46 +63,41 @@ print(first_name)
 last_name = ["Boris", "Aggrippa", "Navas", "Ian"]
 print(last_name)
 
-fullname = [first + " " + last for first, last in zip(first_name, last_name)]   # using zip method
-print(fullname)
+fullnames = [first-name[0] + " " + last_name[0], + " " + first_name[1] + " " + last+name[1], + " " + first_name[2] + " " + last_name[2], + first_name[3] + " " + last_name[3]]
+print(fullnames)
+for i in fullname :
+    print(i)
 
+    # String formatting and list indexing
+    student = ["Judith", "Caroline", "Elizabeth"]
+    print(student)
 
-student = ["Judith", "Caroline", "Elizabeth"]
-for i, student in enumerate(student, 1): 
-                # using loop function and enumerator function
-    print("student {} : {}".format(i, student))
+    height = 1.7
+    age = 22
+    weight = 58
+    text2 = "student[0] is {} meters tall.". format(height)
+    print(text2)
+    text3 = "student[1] is {} years old.".format(age)
+    print(text3)
+    text4 = "student[2] weighs about {} kg.".format(weight)
+    print(text4)
 
-   # print("The first student name is:", student[2])
-
-    
-height = 1.7 
-age = 22 
-weight = 58
-text2 = "Judith is {} meters tall.". format(height)
-print(text2)
-text3 = "Caroline is {} years old.".format(age)
-print(text3)
-text4 = "Elizabeth weighs about {} kg.".format(weight)
-print(text4)
-
-print(student[2])
+    print(student[2])
 
     # String searching and list filtering
-words = ["Came", "Go", "Jump", "shout", "sat"]
-print(words)
-for word in words:
-     if 'a' in word:
+    words = ["Came", "Go", "Jump", "shout", "sat"]
+    print(words)
+    for word in words:
+        if 'a' in word:
             print(words)
 
 
         # string slicing and list slicing
-text = "I have a good home"
-print(text[0:6])
+        text = "I have a good home"
+        print(text[0:6])
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(numbers[0], [1], [2], [7])
-print(numbers[2])
-
+        numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        print(numbers[2], [5], [8])
 
     
 
